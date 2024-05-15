@@ -27,8 +27,6 @@ public class UserDataProcessor {
         String gender = userDataArray[5];
 
         try {
-            // Проверка форматов данных
-            // Реализация парсинга и обработки данных
 
             File file = new File(surname + ".txt");
             FileWriter writer = new FileWriter(file);
